@@ -1,0 +1,79 @@
+header
+{
+    height: 10rem;
+    width: 100%;
+    background-color: peachpuff;
+}
+header p{
+    font-family: cursive;
+    line-height: 5rem;
+    font-size: 4rem;
+    text-align: center;
+    line-height: 10rem;
+}
+#container
+{
+    height: 100vh;
+    width: 100%;
+    background-color: #E5B0EA;
+}
+#text_div
+{
+    height: 10rem;
+    border-bottom: 2px solid #A8026F;
+    width: 50%;
+    /* background-color: aqua; */
+}
+#text_field
+{
+    height: 5rem;
+    width: 90%;
+    background-color: transparent;
+    border: none;
+    outline: 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    margin-top: 5%;
+    line-height: 10rem;
+}
+#add
+{
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: 1%;
+}
+#content_field
+{
+    margin-top: 5%;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#info
+{
+    margin-top: 3%;
+}
+#ul
+{
+    display: inline-block;
+    cursor: pointer;
+}
+/* span:hover
+{
+    color: red;
+} */
+
+li
+{
+    font-size: 2.5rem;
+}
+span {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    
+  }
+span:hover{
+    text-decoration: line-through;
+}
+  
